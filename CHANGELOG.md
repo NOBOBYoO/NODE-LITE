@@ -6,5 +6,5 @@ First release of NODE.LITE — a lighter settlement dashboard for Fallout 4 that
 
 - Open a live view of every owned settlement from anywhere in the game.
 - Compare population, happiness, food, water, power, defense, beds, build budget, and caravan reach.
-- Inspect a settlement's residents, homes, jobs, and SPECIAL on the same page, then use supported settler controls.
+- Inspect a settlement's residents, homes, jobs, and SPECIAL, then use supported settler controls.
 - Press **Home** to open and **Esc** to close. Change the open key and appearance in Settings.

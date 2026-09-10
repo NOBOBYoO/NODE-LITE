@@ -29,7 +29,7 @@
 
 NODE.LITE is the lighter NODE dashboard for players who want a clear view of their settlements without Sim Settlements 2. Open it from anywhere to compare workshops, review local needs, inspect residents, and use supported settler controls — without travelling from settlement to settlement.
 
-Settlement information stays ready while you play. The dashboard can open quickly with previously collected data and continues refreshing quietly in the background.
+Settlement information stays ready while you play, so you can open the dashboard and see your settlements right away.
 
 > [!NOTE]
 > NODE.LITE is a first release. Features will continue to grow, and community reports are an important part of improving compatibility and stability.
@@ -59,9 +59,8 @@ Do not run NODE and NODE.LITE together. Pick the dashboard that matches how you 
 
 ### Settlement overview
 
-- Review essential workshop totals for the selected settlement.
-- See caravan reach alongside population, resources, defense, beds, and build budget.
-- Browse the resident list on the same page, including SPECIAL, type, home, and job.
+- Review workshop totals for the selected settlement, including population, resources, defense, beds, build budget, and caravan reach.
+- Browse residents, including SPECIAL, type, home, and job.
 - Filter for residents with no home, unemployed residents, and provisioners.
 - Use supported controls for Commandable, Allow Move, Allow Caravan, Move to Player, and settlement transfer.
 
@@ -70,8 +69,8 @@ Do not run NODE and NODE.LITE together. Pick the dashboard that matches how you 
 - Press **Home** to open NODE.LITE and **Esc** to close it.
 - Rebind the open key from the in-game Settings page.
 - Choose the NODE.LITE theme or an alternate color theme.
-- Hide the Settlement Updates bar without moving the rest of the menu.
-- Reduce interface animation for smoother use on large settlement networks.
+- Turn the Settlement Updates bar on or off in Settings.
+- Reduce interface animation in Settings.
 - Review useful status and troubleshooting information from the built-in Console page.
 
 ## Requirements
@@ -100,12 +99,12 @@ Choose the Address Library package that matches your Old-Gen, Next-Gen, or Anniv
 
 [![PrismaUI F4 version](https://img.shields.io/badge/PRISMAUI_F4-2.1-E7A83A?style=for-the-badge&labelColor=103C38)](https://www.nexusmods.com/fallout4/mods/105454)
 
-NODE.LITE currently targets **PrismaUI F4 2.1**. Older Prisma UI builds are not supported.
+NODE.LITE requires **PrismaUI F4 2.1**. Older Prisma UI builds are not supported.
 
 > [!IMPORTANT]
 > **NODE.LITE requires PrismaUI F4 2.1.** Older Prisma UI builds will not open the dashboard.
 >
-> **`NODE.LITE.esp` is required and must be enabled.** It provides the companion quest used for supported settler actions. Sim Settlements 2 and Workshop Framework are **not** required.
+> **`NODE.LITE.esp` is required and must be enabled.** Settler controls need it. Sim Settlements 2 and Workshop Framework are **not** required.
 
 ## Installation
 
@@ -130,7 +129,7 @@ NODE.LITE currently targets **PrismaUI F4 2.1**. Older Prisma UI builds are not 
 
 Install the new version over the existing NODE.LITE installation and allow your mod manager to replace the older packaged files.
 
-`NODE.LITE.ini` is created automatically on first launch and is **not shipped in release archives**. Updating NODE.LITE therefore does not replace your existing preferences; newly introduced settings are added only when missing.
+Your NODE.LITE settings are saved on first launch and stay in place when you update.
 
 ## Using NODE.LITE
 
@@ -140,7 +139,7 @@ Install the new version over the existing NODE.LITE installation and allow your 
 4. Use **Settings** to change the open key, theme, motion, and Settlement Updates display.
 5. Press **Esc** to close NODE.LITE.
 
-NODE.LITE begins building its settlement information after the game is ready. Large or heavily modded saves can take longer to complete their first network-wide update, but already prepared settlement information remains available as newer results arrive.
+NODE.LITE starts filling in settlement information after you load a save. Large saves can take longer at first.
 
 ## Support and troubleshooting
 
