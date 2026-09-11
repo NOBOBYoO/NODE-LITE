@@ -4,7 +4,7 @@
   <h1>NODE.LITE — Settlement Network Dashboard</h1>
 
   <p>
-    <strong>Your settlement network, ready when you need it — without Sim Settlements 2.</strong><br>
+    <strong>Your settlement network, ready when you need it.</strong><br>
     A lightweight in-game dashboard for vanilla Fallout 4 settlements.
   </p>
 
@@ -27,7 +27,7 @@
 
 ## Overview
 
-NODE.LITE is the lighter NODE dashboard for players who want a clear view of their settlements without Sim Settlements 2. Open it from anywhere to compare workshops, review local needs, inspect residents, and use supported settler controls — without travelling from settlement to settlement.
+NODE.LITE is the lighter NODE dashboard for vanilla Fallout 4 settlements. Open it from anywhere to compare workshops, review local needs, inspect residents, and use supported settler controls — without travelling from settlement to settlement.
 
 Settlement information stays ready while you play, so you can open the dashboard and see your settlements right away.
 
@@ -38,7 +38,7 @@ Settlement information stays ready while you play, so you can open the dashboard
 
 | | **NODE.LITE** | **NODE** |
 | --- | --- | --- |
-| Best for | Vanilla settlements, or anyone who wants the network view without Sim Settlements 2 | Sim Settlements 2 cities and the extra city detail NODE is built around |
+| Best for | Vanilla settlements and lighter play | Sim Settlements 2 cities and the extra city detail NODE is built around |
 | What you see | Workshop totals, residents, homes, jobs, and caravan reach | That picture plus SS2 city plans, leaders, plots, services, and related city systems |
 | Extra settlement mods | Not required | Sim Settlements 2 and Workshop Framework |
 
