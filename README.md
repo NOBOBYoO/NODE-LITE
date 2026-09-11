@@ -40,7 +40,7 @@ Settlement information stays ready while you play, so you can open the dashboard
 | --- | --- | --- |
 | Best for | Vanilla settlements and lighter play | Sim Settlements 2 cities and the extra city detail NODE is built around |
 | What you see | Workshop totals, residents, homes, jobs, and caravan reach | That picture plus SS2 city plans, leaders, plots, services, and related city systems |
-| Extra settlement mods | Not required | Sim Settlements 2 and Workshop Framework |
+| Extra settlement mods | Workshop Framework optional but recommended | Sim Settlements 2 and Workshop Framework |
 
 If you use Sim Settlements 2 and want the full city picture, use original NODE:
 
@@ -101,10 +101,16 @@ Choose the Address Library package that matches your Old-Gen, Next-Gen, or Anniv
 
 NODE.LITE requires **PrismaUI F4 2.1**. Older Prisma UI builds are not supported.
 
+### Workshop Framework
+
+[![Workshop Framework optional](https://img.shields.io/badge/WORKSHOP_FRAMEWORK-OPTIONAL-6EE8B4?style=for-the-badge&labelColor=103C38)](https://www.nexusmods.com/fallout4/mods/35004)
+
+Workshop Framework is **optional but recommended**. NODE.LITE works without it.
+
 > [!IMPORTANT]
 > **NODE.LITE requires PrismaUI F4 2.1.** Older Prisma UI builds will not open the dashboard.
 >
-> **`NODE.LITE.esp` is required and must be enabled.** Settler controls need it. Sim Settlements 2 and Workshop Framework are **not** required.
+> **`NODE.LITE.esp` is required and must be enabled.** Settler controls need it. Sim Settlements 2 is **not** required. Workshop Framework is optional but recommended.
 
 ## Installation
 
@@ -163,6 +169,7 @@ AI tools are used during NODE.LITE's development for automation, debugging, imag
 - **PrismaUI F4** — [StarkMP; Fallout 4 port by NomadsReach / Fallen World](https://www.nexusmods.com/fallout4/mods/105454)
 - **Fallout 4 Script Extender (F4SE)** — [Ian Patterson, Stephen Abel, and Brendan Borthwick](https://f4se.silverlock.org/)
 - **Address Library for F4SE Plugins** — [meh321](https://www.nexusmods.com/fallout4/mods/47327)
+- **Workshop Framework** — [kinggath](https://www.nexusmods.com/fallout4/mods/35004)
 
 ## Repository notice
 
