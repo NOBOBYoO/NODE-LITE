@@ -9,6 +9,7 @@
   </p>
 
   <p>
+    <a href="https://www.nexusmods.com/fallout4/mods/108926"><img alt="Download on Nexus Mods" src="https://img.shields.io/badge/NEXUS_MODS-DOWNLOAD_NODE.LITE-E7A83A?style=for-the-badge&labelColor=03090A&logo=nexusmods&logoColor=D8F5D5"></a>
     <a href="https://github.com/NOBOBYoO/NODE-LITE/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/NOBOBYoO/NODE-LITE?style=for-the-badge&label=LATEST_RELEASE&labelColor=103C38&color=6EE8B4"></a>
     <a href="https://github.com/NOBOBYoO/NODE-LITE/releases"><img alt="Release downloads" src="https://img.shields.io/github/downloads/NOBOBYoO/NODE-LITE/total?style=for-the-badge&label=DOWNLOADS&labelColor=103C38&color=2C9A86"></a>
   </p>
@@ -117,7 +118,7 @@ Workshop Framework is **optional but recommended**. NODE.LITE works without it.
 ### Mod Organizer 2 or Vortex — recommended
 
 1. Install the required dependencies listed above for your game version.
-2. Download NODE.LITE from the [GitHub Releases page](https://github.com/NOBOBYoO/NODE-LITE/releases).
+2. Download NODE.LITE from [Nexus Mods](https://www.nexusmods.com/fallout4/mods/108926) or the [GitHub Releases page](https://github.com/NOBOBYoO/NODE-LITE/releases).
 3. Install the archive with Mod Organizer 2 or Vortex.
 4. Confirm that **`NODE.LITE.esp`** is enabled in your load order.
 5. Launch Fallout 4 through **F4SE**.
@@ -153,6 +154,8 @@ NODE.LITE starts filling in settlement information after you load a save. Large 
 - **Interface feels busy:** Enable **Reduce Animations** in Settings.
 - **Log location:** `Documents\My Games\Fallout4\F4SE\NODE.LITE.log`.
 
+Please report issues through the [NODE.LITE Nexus Mods page](https://www.nexusmods.com/fallout4/mods/108926).
+
 When reporting a problem, please include:
 
 - Your exact Fallout 4 version.
@@ -182,6 +185,7 @@ See [LICENSE](LICENSE) for the terms that apply to NODE.LITE's public release fi
 <div align="center">
   <strong>NODE.LITE</strong><br>
   <sub>Your settlement network, ready when you need it.</sub><br><br>
+  <a href="https://www.nexusmods.com/fallout4/mods/108926">Nexus Mods</a> ·
   <a href="https://github.com/NOBOBYoO/NODE-LITE/releases">Releases</a> ·
   <a href="https://www.nexusmods.com/fallout4/mods/107925">Original NODE on Nexus</a> ·
   <a href="https://github.com/NOBOBYoO/NODE">Original NODE on GitHub</a>
