@@ -8,7 +8,7 @@
 - Added a **Settlers Renaming System** setting, to toggle the system. Turning off the system restores all settlers names to Settler again.
 - Minutemen, Nuka-World gangs, and similar workshop groups can also receive names, with the group kept in parentheses. That option can be turned off on its own.
 - Settings now include **Interface scale**, so you can make the whole dashboard smaller or larger to fit your screen resolution.
-- Settler profiles now include **Unassign bed** and **Unassign job**.
+- Settler profiles now include **Unassign bed** and **Unassign job**, so you can free a bed or workplace without moving that person out of the settlement.
 
 ### 🔄 Changes
 
