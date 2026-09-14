@@ -33,7 +33,7 @@ NODE.LITE is the lighter NODE dashboard for vanilla Fallout 4 settlements. Open 
 Settlement information stays ready while you play, so you can open the dashboard and see your settlements right away.
 
 > [!NOTE]
-> NODE.LITE is a first release. Features will continue to grow, and community reports are an important part of improving compatibility and stability.
+> NODE.LITE is in early development. Features will continue to grow, and community reports are an important part of improving compatibility and stability.
 
 ## NODE.LITE or original NODE?
 
@@ -63,16 +63,18 @@ Do not run NODE and NODE.LITE together. Pick the dashboard that matches how you 
 - Review workshop totals for the selected settlement, including population, resources, defense, beds, build budget, and caravan reach.
 - Browse residents, including SPECIAL, type, home, and job.
 - Filter for residents with no home, unemployed residents, and provisioners.
-- Use supported controls for Commandable, Allow Move, Allow Caravan, Move to Player, and settlement transfer.
+- Use supported controls for Commandable, Allow Move, Allow Caravan, Move to Player, settlement transfer, Unassign bed, and Unassign job.
 
 ### Settings and quality of life
 
 - Press **Home** to open NODE.LITE and **Esc** to close it.
 - Rebind the open key from the in-game Settings page.
 - Choose the NODE.LITE theme or an alternate color theme.
+- Scale the whole dashboard from Settings to fit your screen.
+- Give generic settlers first names and surnames with the Settlers Renaming System. Unique named people are left alone.
 - Turn the Settlement Updates bar on or off in Settings.
 - Reduce interface animation in Settings.
-- Review useful status and troubleshooting information from the built-in Console page.
+- Optionally enable the Console page in Debug settings for status and troubleshooting.
 
 ## Requirements
 
@@ -143,7 +145,7 @@ Your NODE.LITE settings are saved on first launch and stay in place when you upd
 1. Press **Home** while in-game to open the dashboard.
 2. Use **Network Overview** to compare all owned settlements.
 3. Use **Settlement Overview** to inspect one settlement and its residents.
-4. Use **Settings** to change the open key, theme, motion, and Settlement Updates display.
+4. Use **Settings** to change the open key, theme, Interface scale, settler renaming, motion, Settlement Updates, and Console.
 5. Press **Esc** to close NODE.LITE.
 
 NODE.LITE starts filling in settlement information after you load a save. Large saves can take longer at first.
