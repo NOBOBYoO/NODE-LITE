@@ -9,10 +9,12 @@
 - Minutemen, Nuka-World gangs, and similar workshop groups can also receive names, with the group kept in parentheses. That option can be turned off on its own.
 - Settings now include **Interface scale**, so you can make the whole dashboard smaller or larger to fit your screen resolution.
 - Settler profiles now include **Unassign bed** and **Unassign job**, so you can free a bed or workplace without moving that person out of the settlement.
+- NODE.LITE now appears in the **Prisma Dock** on the ESC menu, with the NODE.LITE badge, a short description, and a link to the Nexus page.
 
 ### 🔄 Changes
 
 - The Console page is now off by default. Turn on **Enable Console** in Debug settings to show it in the sidebar. **Console debug mode** is nested under that setting, for extra diagnostic lines in the in-game console and NODE.LITE.log.
+- The **Settlement Updates** setting is now **Settlements Update Bar**, so it is clearer that it controls the bar at the top of the menu.
 
 ### 🌿 QoL Improvements
 

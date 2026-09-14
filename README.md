@@ -72,7 +72,7 @@ Do not run NODE and NODE.LITE together. Pick the dashboard that matches how you 
 - Choose the NODE.LITE theme or an alternate color theme.
 - Scale the whole dashboard from Settings to fit your screen.
 - Give generic settlers first names and surnames with the Settlers Renaming System. Unique named people are left alone.
-- Turn the Settlement Updates bar on or off in Settings.
+- Turn the Settlements Update Bar on or off in Settings.
 - Reduce interface animation in Settings.
 - Optionally enable the Console page in Debug settings for status and troubleshooting.
 
@@ -145,7 +145,7 @@ Your NODE.LITE settings are saved on first launch and stay in place when you upd
 1. Press **Home** while in-game to open the dashboard.
 2. Use **Network Overview** to compare all owned settlements.
 3. Use **Settlement Overview** to inspect one settlement and its residents.
-4. Use **Settings** to change the open key, theme, Interface scale, settler renaming, motion, Settlement Updates, and Console.
+4. Use **Settings** to change the open key, theme, Interface scale, settler renaming, motion, Settlements Update Bar, and Console.
 5. Press **Esc** to close NODE.LITE.
 
 NODE.LITE starts filling in settlement information after you load a save. Large saves can take longer at first.
