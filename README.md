@@ -100,9 +100,9 @@ Choose the Address Library package that matches your Old-Gen, Next-Gen, or Anniv
 
 ### PrismaUI F4
 
-[![PrismaUI F4 version](https://img.shields.io/badge/PRISMAUI_F4-2.1-E7A83A?style=for-the-badge&labelColor=103C38)](https://www.nexusmods.com/fallout4/mods/105454)
+[![PrismaUI F4 version](https://img.shields.io/badge/PRISMAUI_F4-2.1.1-E7A83A?style=for-the-badge&labelColor=103C38)](https://www.nexusmods.com/fallout4/mods/105454)
 
-NODE.LITE requires **PrismaUI F4 2.1**. Older Prisma UI builds are not supported.
+NODE.LITE requires **PrismaUI F4 2.1.1**. Update Prisma before updating NODE.LITE; older Prisma UI builds are no longer supported.
 
 ### Workshop Framework
 
@@ -111,7 +111,7 @@ NODE.LITE requires **PrismaUI F4 2.1**. Older Prisma UI builds are not supported
 Workshop Framework is **optional but recommended**. NODE.LITE works without it.
 
 > [!IMPORTANT]
-> **NODE.LITE requires PrismaUI F4 2.1.** Older Prisma UI builds will not open the dashboard.
+> **NODE.LITE requires PrismaUI F4 2.1.1.** Update Prisma before updating NODE.LITE. Older Prisma UI builds will not open the dashboard.
 >
 > **`NODE.LITE.esp` is required and must be enabled.** Settler controls need it. Sim Settlements 2 is **not** required. Workshop Framework is optional but recommended.
 
@@ -152,7 +152,7 @@ NODE.LITE starts filling in settlement information after you load a save. Large 
 
 ## Support and troubleshooting
 
-- **NODE.LITE does not open:** Confirm that Fallout 4 was launched through F4SE and that PrismaUI F4 **2.1** is installed. Older Prisma UI builds are not supported.
+- **NODE.LITE does not open:** Confirm that Fallout 4 was launched through F4SE and that PrismaUI F4 **2.1.1** is installed. Older Prisma UI builds are not supported.
 - **Interface feels busy:** Enable **Reduce Animations** in Settings.
 - **Log location:** `Documents\My Games\Fallout4\F4SE\NODE.LITE.log`.
 
