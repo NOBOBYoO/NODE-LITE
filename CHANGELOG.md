@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.4.0] - 2026-09-26
+
+### 🛠️ Fallout 4 1.10.163 Support Changes
+
+> **Fallout 4 1.10.163** (Old-Gen) is now fully supported.
+> Before this update, NODE.LITE froze that version of the game on the main menu when loading a save. The following notes cover what changed to support this game version.
+>
+> Old-Gen settlement updates follow their own path, separate from Next-Gen and Anniversary Edition, so they do not stall the game.
+
+- Settlements update one at a time instead of freezing the game after a save loads. The update bar shows the pass, waits **15 seconds**, then reads them again.
+- Settings → Scans System → **Advanced** shows only **Settlement totals** and **Pause Scans** on this game version. The other timing options do not apply to it.
+
+> The following changes apply to every game version:
+
+### 🔄 Changes
+
+- **Settlements updated at once** now defaults to **1**, the smoothest setting. Existing settings are kept.
+- A full settlement read now takes about **3 seconds** while the dashboard is open, and about **10 seconds** while it is closed.
+- If caravan routes stop updating, NODE.LITE tries them again **30 seconds** later. They no longer stay off for the rest of the session.
+
+### 🛠️ Fixes
+
+- **Fallout 4 1.10.163** no longer freezes on the main menu when loading a save.
+
 ## [0.3.0] - 2026-09-21
 
 ### 🔄 Changes
