@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.1] - 2026-09-27 (Hotfix)
+
+### 🛠️ Fixes
+
+- NODE.LITE.esp is now flagged as a light plugin (ESL). (Thanks to [@KuroshuKiji](https://www.nexusmods.com/profile/KuroshuKiji))
+
 ## [0.4.0] - 2026-09-26
 
 ### 🛠️ Fallout 4 1.10.163 Support Changes
