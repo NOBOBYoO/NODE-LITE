@@ -1,5 +1,43 @@
 # Changelog
 
+## [0.5.0] - 2026-10-12
+
+### ✨ Additions
+
+- Added a **Nobody's Leaders 3 compatibility** setting under the Settlers Renaming System. It only appears when Nobody's Leaders 3 is installed, and is on by default. Settlers that Nobody's Leaders 3 names after their settlement, such as Caroline Tenpines, keep those names, and any of them NODE.LITE renamed before get their Nobody's Leaders 3 name back.
+
+### 🔄 Changes
+
+- Redesigned the settler profile. It now opens as a centered window instead of the side panel, so everything about a settler is visible at once.
+  - SPECIAL, info, assignments, flags and actions now sit side by side instead of in one long column.
+  - The header shows the settler's name. An info column lists their type, settlement, role and bed, and flags a settler with no bed.
+  - Unassign bed, Unassign job, Move to Player and Transfer moved to an actions column on the right.
+- Redesigned the **Scans Update Bar** as the **Status Indicator**, a compact pill at the top of the menu.
+  - Selecting the pill opens details on settlement updates and caravan routes.
+  - Shows when scans are paused, when settlements are still being found, when settlements can't be updated, and when the dashboard is showing the save's last known data.
+  - A **Recent activity** list records finished full checks, settlements updated after a change, and the result of each settler change.
+  - A settler change shows as waiting until every queued change has finished, not just the first one.
+  - On Fallout 4 1.10.163, settlement updates show as a full check with progress.
+  - It only redraws when something changes, so the menu does less work while it is open.
+  - Renamed its Settings toggle to **Status Indicator**.
+- Changed caravan routes to be counted natively during each settlement read instead of in a separate script pass, so route counts update together with the settlement numbers.
+- Changed the **Full settlement check** default to **120 seconds**. Settings still on the old **30-second** default move to 120 once, and custom values are kept.
+- Changed settlement updates so a changed settlement refreshes right away on its own, without restarting a settlement numbers refresh already in progress.
+- Changed where dashboard data is stored: each save's F4SE co-save, instead of one file per character, written only when the game saves. After loading a save, the dashboard opens right away with that save's own last known settlements and settlers, then refreshes them in the background. Old files in **Data\F4SE\Plugins\NODE.LITE\cache** are removed on launch.
+- Changed the Settlers Renaming System to keep its record of renamed settlers in each save instead of one file per character, so turning renaming off restores the right names for that save. Settlers who have died or left the game are dropped from the record, and an older save reads its character's old list once.
+
+### 🛠️ Fixes
+
+- Fixed loading an older save briefly showing settlements and settlers from a later point of the same character.
+- Fixed the Population list showing **Settler** for settlers that other mods name through quests. Their given names now show.
+- Fixed a settler change being dropped without notice when settler options were opened, or another change was made, before it started. Changes now wait in a short queue and report a failure if they can't run.
+- Fixed the Settlers Renaming System skipping unnamed settlers called **Worker**, such as the ghouls at The Slog. They are now renamed with **Worker** kept in brackets, like faction settlers.
+- Fixed synth settlers' type reading **Human (Female (Synth))**. It now reads **Human (Female, Synth)**.
+- Fixed **Export network data** always writing hasMapMarker as false. It now reports whether a settlement has a map marker, and the marker coordinates are read from that marker.
+- Fixed settlements taken or lost on Fallout 4 1.10.163 never being added to or removed from the dashboard after the first list was read.
+- Fixed **Pause Scans** on Fallout 4 1.10.163 never showing as paused, and settlement update problems never being shown.
+- Fixed a shorter **Settlement totals** interval on Fallout 4 1.10.163 only taking effect after the update already waiting.
+
 ## [0.4.1] - 2026-09-27 (Hotfix)
 
 ### 🛠️ Fixes

@@ -4,7 +4,7 @@
   <h1>NODE.LITE — Settlement Network Dashboard</h1>
 
   <p>
-    <strong>Your settlement network, ready when you need it.</strong><br>
+    <strong>Your whole network of settlements, in one place.</strong><br>
     A lightweight in-game dashboard for vanilla Fallout 4 settlements.
   </p>
 
@@ -30,7 +30,7 @@
 
 NODE.LITE is the lighter NODE dashboard for vanilla Fallout 4 settlements. Open it from anywhere to compare workshops, review local needs, inspect residents, and use supported settler controls — without travelling from settlement to settlement.
 
-Settlement information stays ready while you play, so you can open the dashboard and see your settlements right away.
+Settlement information stays ready while you play. Each save keeps its own last known settlements and settlers, so the dashboard opens right away after loading and refreshes them in the background.
 
 > [!NOTE]
 > NODE.LITE is in early development. Features will continue to grow, and community reports are an important part of improving compatibility and stability.
@@ -40,7 +40,7 @@ Settlement information stays ready while you play, so you can open the dashboard
 | | **NODE.LITE** | **NODE** |
 | --- | --- | --- |
 | Best for | Vanilla settlements and lighter play | Sim Settlements 2 cities and the extra city detail NODE is built around |
-| What you see | Workshop totals, residents, homes, jobs, and caravan reach | That picture plus SS2 city plans, leaders, plots, services, and related city systems |
+| What you see | Workshop totals, residents, homes, jobs, caravan reach, and a settler profile | That picture plus SS2 city plans, leaders, services, a Plots tab with Plot Profiles, home/job/hobby plot assignments, and a settler Status section |
 | Extra settlement mods | Workshop Framework optional but recommended | Sim Settlements 2 and Workshop Framework |
 
 If you use Sim Settlements 2 and want the full city picture, use original NODE:
@@ -63,7 +63,14 @@ Do not run NODE and NODE.LITE together. Pick the dashboard that matches how you 
 - Review workshop totals for the selected settlement, including population, resources, defense, beds, build budget, and caravan reach.
 - Browse residents, including SPECIAL, type, home, and job.
 - Filter for residents with no home, unemployed residents, and provisioners.
-- Use supported controls for Commandable, Allow Move, Allow Caravan, Move to Player, settlement transfer, Unassign bed, and Unassign job.
+
+### Settler profile
+
+- Select a resident to open a centered settler profile.
+- **Info**: type, settlement, role (Provisioner or Settler), and bed, with an amber **No bed** for a settler without one.
+- **S.P.E.C.I.A.L.** values, **Bed** and **Job** assignments, and **Flags** for Commandable, Allow Move, and Allow Caravan.
+- **Actions**: Unassign bed, Unassign job, Move to Player, and Transfer to another settlement.
+- Settler changes wait in a short queue and report a failure if they can't run, instead of being dropped.
 
 ### Settings and quality of life
 
@@ -71,8 +78,10 @@ Do not run NODE and NODE.LITE together. Pick the dashboard that matches how you 
 - Rebind the open key from the in-game Settings page.
 - Choose the NODE.LITE theme or an alternate color theme.
 - Scale the whole dashboard from Settings to fit your screen.
-- Give generic settlers first names and surnames with the Settlers Renaming System. Unique named people are left alone.
-- Turn the Settlements Update Bar on or off in Settings.
+- Give generic settlers first names and surnames with the Settlers Renaming System. Unique named people are left alone, unnamed **Worker** settlers are included, and settlers named by other mods through quests keep their names. Each save keeps its own record of renamed settlers.
+- With Nobody's Leaders 3 installed (it requires Sim Settlements 2), the **Nobody's Leaders 3 compatibility** setting (on by default) leaves the names it gives settlers alone.
+- Follow background work with the **Status Indicator**, a compact pill at the top of the menu. It shows when scans are paused, when settlements are still being found, when settlements can't be updated, and when the dashboard is showing the save's last known data. Select it for details on settlement updates and caravan routes, a **Recent activity** list, and any wait on a settler change. Turn it on or off with the **Status Indicator** setting.
+- Changed settlements refresh right away on their own, and a **Full settlement check** runs every **120 seconds** by default (**Settings → Systems → Scans System → Advanced**). Settings still on the old 30-second default move to 120 once. On Fallout 4 1.10.163, settlements are read one at a time as a full check, and only **Settlement totals** and **Pause Scans** apply.
 - Reduce interface animation in Settings.
 - Optionally enable the Console page in Debug settings for status and troubleshooting.
 
@@ -84,7 +93,7 @@ Install the dependency intended for your Fallout 4 runtime. Use the Old-Gen, Nex
 
 [![Supported Fallout 4 versions](https://img.shields.io/badge/FALLOUT_4-1.10.163_%7C_1.10.984_%7C_1.11.191%2B-6EE8B4?style=for-the-badge&labelColor=103C38&logo=steam&logoColor=D8F5D5)](https://store.steampowered.com/app/377160/Fallout_4/)
 
-Supported runtimes: **1.10.163** (Old-Gen), **1.10.984** (Next-Gen), and **1.11.191 or newer** (Anniversary Edition).
+Supported runtimes: **1.10.163** (Old-Gen), **1.10.984** (Next-Gen), and **1.11.191 or newer** (Anniversary Edition). One NODE.LITE DLL covers all three.
 
 ### Fallout 4 Script Extender
 
@@ -113,7 +122,7 @@ Workshop Framework is **optional but recommended**. NODE.LITE works without it.
 > [!IMPORTANT]
 > **NODE.LITE requires PrismaUI F4 2.1.1.**
 >
-> **`NODE.LITE.esp` is required and must be enabled.** Settler controls need it. Sim Settlements 2 is **not** required. Workshop Framework is optional but recommended.
+> **`NODE.LITE.esp` (ESL-flagged) is required and must be enabled.** Settler controls need it. Sim Settlements 2 is **not** required. Workshop Framework is optional but recommended.
 
 ## Installation
 
@@ -144,8 +153,8 @@ Your NODE.LITE settings are saved on first launch and stay in place when you upd
 
 1. Press **Home** while in-game to open the dashboard.
 2. Use **Network Overview** to compare all owned settlements.
-3. Use **Settlement Overview** to inspect one settlement and its residents.
-4. Use **Settings** to change the open key, theme, Interface scale, settler renaming, motion, Settlements Update Bar, and Console.
+3. Use **Settlement Overview** to inspect one settlement and its residents, and select a resident to open their settler profile.
+4. Use **Settings** to change the open key, theme, Interface scale, settler renaming, refresh timing, motion, Status Indicator, and Console.
 5. Press **Esc** to close NODE.LITE.
 
 NODE.LITE starts filling in settlement information after you load a save. Large saves can take longer at first.
@@ -153,7 +162,7 @@ NODE.LITE starts filling in settlement information after you load a save. Large 
 ## Support and troubleshooting
 
 - **NODE.LITE does not open:** Confirm that Fallout 4 was launched through F4SE and that PrismaUI F4 **2.1.1** is installed.
-- **Interface feels busy:** Enable **Reduce Animations** in Settings.
+- **Interface feels busy:** Enable **Reduce Animations**, or raise **Full settlement check** under **Settings → Systems → Scans System → Advanced** (on Fallout 4 1.10.163, raise **Settlement totals**).
 - **Log location:** `Documents\My Games\Fallout4\F4SE\NODE.LITE.log`.
 
 Please report issues through the [NODE.LITE Nexus Mods page](https://www.nexusmods.com/fallout4/mods/108926).
@@ -186,7 +195,7 @@ See [LICENSE](LICENSE) for the terms that apply to NODE.LITE's public release fi
 
 <div align="center">
   <strong>NODE.LITE</strong><br>
-  <sub>Your settlement network, ready when you need it.</sub><br><br>
+  <sub>Your whole network of settlements, in one place.</sub><br><br>
   <a href="https://www.nexusmods.com/fallout4/mods/108926">Nexus Mods</a> ·
   <a href="https://github.com/NOBOBYoO/NODE-LITE/releases">Releases</a> ·
   <a href="https://www.nexusmods.com/fallout4/mods/107925">Original NODE on Nexus</a> ·
