@@ -1,5 +1,37 @@
 # Changelog
 
+## [0.6.0] - 2026-11-04
+
+### ✨ Additions
+
+- Added **Report a bug** to the Console page and to Settings. It builds a report with NODE.LITE, game and F4SE versions, loaded F4SE plugins, key mods, the current save's settlement and supply line status, the last scans, settings, recent Console lines (debug lines optional) and the end of NODE.LITE.log. **Copy** puts the full report on the clipboard and **Save to file** writes a .txt file to Documents/My Games/Fallout4/NODE.LITE/reports.
+- Added the **Network Map** page, showing every owned settlement on the world map (Commonwealth, Far Harbor and Nuka-World) with its population, status and supply lines. Selecting a settlement opens an info box with its key stats.
+- Added travel points with Pip-Boy icons to the Network Map. Far Harbor and Nuka-World appear on the Commonwealth map once those locations are unlocked, and the Commonwealth appears on theirs, each linked to the closest settlement. Selecting one opens that map.
+- Added the **Supply Line Manager** to the Network Map to assign, change and remove supply lines, with broken lines shown until dismissed. Leftover lines (shown on the Pip-Boy with no provisioner) are cleaned up automatically. Managing lines requires rank 1 of the **Local Leader** perk, as in the base game.
+- Added **Auto-Build Supply Lines**, a panel that previews planned lines on the map and then builds them.
+  - By default it connects settlements that have no line.
+  - **Rebuild all lines** removes every line except Logistics Station 2 lines and builds a new network. Provisioners from the removed lines become free settlers again.
+  - Provisioners are picked from settlers without a job first, then from settlers with base-game jobs. Companions, children, settlement leaders and current provisioners are left alone.
+  - A summary lists each part on its own line: the new lines, where the provisioners come from (settlers without a job and settlers leaving a job), and how many settlements can't be connected. Collapsible **Can't be connected** and **Settlers leaving jobs** lists give the reason for each settlement and name each settler leaving a job.
+- Added **IDEK's Logistics Station 2** compatibility, with or without Sim Settlements 2. Its lines are read shortly after a save loads, shown read-only on the map and left untouched. **Ask ILS2 to rebuild** has it rebuild its own lines while the map follows along. Supply line buttons stay locked until the check for Logistics Station 2 lines is done.
+- Added notifications to the Status Indicator, with an **Alerts** drawer holding the last 100 events grouped by day, and an on-screen ticker while the dashboard is closed. They cover new settlements, new settlers, supply lines, scans and settlements under attack. Each type can be switched off under **Settings › Notifications**, and alerts follow the selected color theme.
+- Added **Export Data** to Settings. **Export now** and an optional **Auto-export on save** write settlements, settlers and supply lines to one JSON file and three CSV files, in a new folder per character and time under Documents/My Games/Fallout4/NODE.LITE/export.
+- Added start and finish lines for each settlement scan to the Console, with its duration and settlement count. Debug mode also lists each settlement as it is read.
+
+### 🔄 Changes
+
+- Redesigned the **Console** page. A status column shows NODE.LITE, game, F4SE and mod versions, scan health and this session's errors and warnings, with **Report a bug** and **Rescan settlements**. The log can be filtered by level and source, searched and paused, selecting a line shows its details, and repeated messages are folded into one line with a count.
+- Reorganized the **Settings** page into collapsible grouped cards with jump buttons and shorter descriptions. Notification options are hidden while notifications are off.
+- Renamed the settler naming options to the **Settlers Re-Naming System** card, with **Rename generic settlers** and **Rename faction and group members**.
+- Changed the open key to also close the dashboard when it is pressed while the dashboard is open. With a hold time set, the key closes it after being held for that time and released.
+- Changed the dashboard to hide the compass, crosshair and other on-screen elements behind it while it is open.
+- Changed the log to record less routine detail.
+
+### 🛠️ Fixes
+
+- Fixed other mods' hotkeys (such as Place Everywhere) staying disabled on Fallout 4 1.10.163 after the dashboard was opened and closed.
+- Fixed the cursor getting stuck in the middle of the screen when a conversation started while the dashboard was open. A centred notice now explains that the dashboard can't be used during a conversation, hands control to the conversation and closes the dashboard after a 10-second countdown or with its **Close** button. The dashboard can't be opened during a conversation.
+
 ## [0.5.0] - 2026-10-12
 
 ### ✨ Additions

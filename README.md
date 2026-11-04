@@ -72,9 +72,23 @@ Do not run NODE and NODE.LITE together. Pick the dashboard that matches how you 
 - **Actions**: Unassign bed, Unassign job, Move to Player, and Transfer to another settlement.
 - Settler changes wait in a short queue and report a failure if they can't run, instead of being dropped.
 
+### Network Map and supply lines
+
+- Open the **Network Map** to see every owned settlement on the Commonwealth, Far Harbor and Nuka-World maps, with population, status and supply lines. Travel points switch between maps once those locations are unlocked.
+- Assign, change and remove supply lines in the **Supply Line Manager**. Broken lines stay visible until dismissed, and leftover lines with no provisioner are cleaned up automatically. Managing lines requires rank 1 of the **Local Leader** perk.
+- Use **Auto-Build Supply Lines** to preview planned lines on the map and then build them: connect settlements that have no line, or **Rebuild all lines** for a new network. Provisioners come from settlers without a job first; companions, children, settlement leaders and current provisioners are left alone.
+- **IDEK's Logistics Station 2** compatibility: its lines are shown read-only on the map and left untouched, and **Ask ILS2 to rebuild** lets it rebuild its own lines.
+
+### Notifications, export and bug reports
+
+- Notifications on the Status Indicator, an **Alerts** drawer with the last 100 events, and an on-screen ticker while the dashboard is closed. Each type can be switched off in Settings.
+- **Export Data** writes settlements, settlers and supply lines to JSON and CSV files, on demand or automatically on save.
+- **Report a bug** (Console page and Settings) builds a report that can be copied or saved to a file.
+- When a conversation starts while the dashboard is open, a notice hands control to the conversation and closes the dashboard.
+
 ### Settings and quality of life
 
-- Press **Home** to open NODE.LITE and **Esc** to close it.
+- Press **Home** to open NODE.LITE, and **Esc** or **Home** again to close it.
 - Rebind the open key from the in-game Settings page.
 - Choose the NODE.LITE theme or an alternate color theme.
 - Scale the whole dashboard from Settings to fit your screen.
@@ -155,7 +169,8 @@ Your NODE.LITE settings are saved on first launch and stay in place when you upd
 2. Use **Network Overview** to compare all owned settlements.
 3. Use **Settlement Overview** to inspect one settlement and its residents, and select a resident to open their settler profile.
 4. Use **Settings** to change the open key, theme, Interface scale, settler renaming, refresh timing, motion, Status Indicator, and Console.
-5. Press **Esc** to close NODE.LITE.
+5. Use **Network Map** to view and manage supply lines.
+6. Press **Esc** or the open key again to close NODE.LITE.
 
 NODE.LITE starts filling in settlement information after you load a save. Large saves can take longer at first.
 
@@ -177,6 +192,12 @@ When reporting a problem, please include:
 ## AI usage disclosure
 
 AI tools are used during NODE.LITE's development for automation, debugging, image generation, and implementation support. Design decisions, feature direction, review, testing, and release responsibility remain under the author's supervision.
+
+## Support
+
+Support for continued development is welcome on Ko-fi.
+
+<a href='https://ko-fi.com/Z7Z028MXCC' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## Credits
 
