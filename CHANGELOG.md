@@ -1,5 +1,38 @@
 # Changelog
 
+## [0.7.0] - 2026-11-14
+
+### ✨ Additions
+
+- Added a fallback: holding N for 3 seconds opens the dashboard, even if the open key is taken by another mod.
+- Added a notice when the open key appears to be taken by another mod.
+- Added sorting to all Network table columns, with ascending and descending order.
+
+### 🔄 Changes
+
+- Replaced immediate settler transfer with a settlement list and a confirm step. After a transfer, the settler's profile closes and the destination list updates.
+- The selected settlement now refreshes about every 20 seconds while the dashboard is open.
+- The **Auto-Build Supply Lines** preview now shows each leaving settler's current job, with a **Keep job** option. **Keep job** leaves that settler in their current job instead of reassigning them as a provisioner.
+- Shortened the conversation interruption notice from 10 seconds to 5 seconds.
+- Renamed the Population table's Home column to Beds.
+
+### 🌿 Quality of Life
+
+- Reworked the Network table with icon headings, settlement status dots and colour-coded surplus or deficit values.
+- Refreshed the sidebar with shorter labels and navigation icons.
+- Added Workshop and Pip-Boy icons to Network summary cards.
+- Improved table readability with alternating row shading.
+- Highlighted missing beds in the Population table.
+
+### 🛠️ Fixes
+
+- Removed a stray dot on the **Network Map** tabs.
+- Fixed scrolled rows showing through table headers.
+- Fixed long **Auto-Build Supply Lines** lists pushing the Confirm and Back buttons out of view.
+- Fixed **Auto-Build Supply Lines** listing settlers who were not leaving a job.
+- Fixed corrupted characters in interface labels.
+- Settlers with Allow Move turned off can no longer be transferred between settlements. Move to Player still works.
+
 ## [0.6.0] - 2026-11-04
 
 ### ✨ Additions
