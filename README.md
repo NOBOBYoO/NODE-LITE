@@ -61,8 +61,8 @@ Do not run NODE and NODE.LITE together. Pick the dashboard that matches how you 
 ### Settlement overview
 
 - Review workshop totals for the selected settlement, including population, resources, defense, beds, build budget, and caravan reach.
-- Browse residents, including SPECIAL, type, home, and job.
-- Filter for residents with no home, unemployed residents, and provisioners.
+- Browse residents, including SPECIAL, type, beds, and job.
+- Filter for residents with no bed, unemployed residents, and provisioners.
 
 ### Settler profile
 
