@@ -90,6 +90,7 @@ Do not run NODE and NODE.LITE together. Pick the dashboard that matches how you 
 
 - Press **Home** to open NODE.LITE, and **Esc** or **Home** again to close it.
 - Rebind the open key from the in-game Settings page.
+- Holding **N** for 3 seconds opens NODE.LITE even if the open key is taken by another mod. A notice appears when the open key appears to be taken.
 - Choose the NODE.LITE theme or an alternate color theme.
 - Scale the whole dashboard from Settings to fit your screen.
 - Give generic settlers first names and surnames with the Settlers Renaming System. Unique named people are left alone, unnamed **Worker** settlers are included, and settlers named by other mods through quests keep their names. Each save keeps its own record of renamed settlers.
