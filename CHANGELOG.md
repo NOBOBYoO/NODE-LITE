@@ -1,5 +1,44 @@
 # Changelog
 
+## [0.8.0] - 2026-11-24
+
+### ✨ Additions
+
+- Added **Keep off supply lines** to the settler profile. Auto-Build never sends that settler on a supply line.
+- Added **Set as hub** and **Connect** to a settlement's info box on the Network Map.
+- Added **Network style**, **Use robots**, **Use named settlers**, **Use settlers with jobs** and **Auto-maintain** under **Settings > Network Map**.
+- Added **Link Far Harbor** and **Link Nuka-World** to Auto-Build Supply Lines. Turn a region off to keep it as its own network.
+- Added **Beds**, **Happiness**, **Food** and **Water** columns to the **Transfer** list.
+
+### 🔄 Changes
+
+- Reworked **Auto-Build Supply Lines**. The network grows from a hub like Logistics Station 2's, with one line from each settlement, and follows Logistics Station 2's settings when it is installed.
+- **Rebuild all lines** is now **Optimize network**. Lines only move when the network gets clearly shorter.
+- Auto-Build now repairs duplicate and unlinked lines before it builds. The preview lists them under **Line repairs**.
+- Supply lines left behind when a provisioner dies or leaves are now removed automatically, instead of staying on the Network Map until dismissed.
+- On Fallout 4 1.10.163, settler lists now include people who belong to a settlement but were missing from the list, while that settlement is loaded. Population stays closer to newer versions of the game.
+- On Fallout 4 1.10.163, a settlement update that is still running is not started again.
+- Settlement updates now follow the same steps on Fallout 4 1.10.163 and on newer versions, so a change to updates applies to both.
+- The Network table now fills in each settlement as soon as that settlement has been checked. Settlements that are no longer owned are still removed when the check finishes.
+- Confirming a transfer now closes the list straight away. The progress and the result show under the action buttons.
+
+### 🌿 Quality of Life
+
+- The Auto-Build preview now shows on the map which routes will be added and which will be removed.
+- The Transfer list now has a title naming the settler and a search box.
+- Settlement overview cards now center their numbers, with the card name kept at the top left.
+- The Caravan Network card now says when supply lines could not be confirmed and the last known routes are still shown.
+
+### 🛠️ Fixes
+
+- Fixed notices about broken supply lines or unassigned provisioners firing when the lines were still on the map.
+- Fixed the hold-N fallback sometimes opening NODE.LITE on a tap instead of after 3 seconds.
+- Fixed the settlement list staying empty on some load orders after taking over the first settlement.
+- Fixed supply lines on the Network Map that could not be removed because the settler had no supply line.
+- Fixed the Network Map showing an old list of supply lines on some saves.
+- Fixed supply lines on the Network Map vanishing and coming back.
+- Fixed the Settlers Re-Naming System giving settlers new names when NODE.LITE was opened. Once a settler is renamed, they keep that name.
+
 ## [0.7.0] - 2026-11-14
 
 ### ✨ Additions

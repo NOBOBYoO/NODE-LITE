@@ -75,8 +75,8 @@ Do not run NODE and NODE.LITE together. Pick the dashboard that matches how you 
 ### Network Map and supply lines
 
 - Open the **Network Map** to see every owned settlement on the Commonwealth, Far Harbor and Nuka-World maps, with population, status and supply lines. Travel points switch between maps once those locations are unlocked.
-- Assign, change and remove supply lines in the **Supply Line Manager**. Broken lines stay visible until dismissed, and leftover lines with no provisioner are cleaned up automatically. Managing lines requires rank 1 of the **Local Leader** perk.
-- Use **Auto-Build Supply Lines** to preview planned lines on the map and then build them: connect settlements that have no line, or **Rebuild all lines** for a new network. Provisioners come from settlers without a job first; companions, children, settlement leaders and current provisioners are left alone.
+- Assign, change and remove supply lines in the **Supply Line Manager**. Lines left behind when a provisioner dies or leaves are cleaned up automatically. Managing lines requires rank 1 of the **Local Leader** perk.
+- Use **Auto-Build Supply Lines** to preview planned lines on the map and then build them. The network grows from a hub, with one line from each settlement, and follows Logistics Station 2's settings when it is installed. It connects settlements that have no line, or **Optimize network** plans the whole network again. Companions, children and settlers kept off supply lines are left alone.
 - **IDEK's Logistics Station 2** compatibility: its lines are shown read-only on the map and left untouched, and **Ask ILS2 to rebuild** lets it rebuild its own lines.
 
 ### Notifications, export and bug reports
